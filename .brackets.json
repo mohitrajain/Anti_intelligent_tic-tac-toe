@@ -1,0 +1,20 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/home/chiraj/Projects/tic-tac-toe/www/lib/angular-ui-router/src/urlMatcherFactory.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/cordova/lib/check_reqs.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/cordova/lib/android_sdk_version.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/cordova/lib/Adb.js",
+        "/home/chiraj/Projects/tic-tac-toe/www/js/app.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/cordova/lib/retry.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/platform_www/cordova-js-src/android/nativeapiprovider.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/assets/www/lib/angular-animate/index.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/assets/www/lib/angular/angular.min.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/assets/www/lib/angular/angular.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/assets/www/lib/angular-animate/angular-animate.min.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/assets/www/lib/angular-animate/angular-animate.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/platform_www/cordova-js-src/android/promptbasednativeapi.js",
+        "/home/chiraj/Projects/tic-tac-toe/www/js/controllers.js",
+        "/home/chiraj/Projects/tic-tac-toe/platforms/android/cordova/lib/pluginHandlers.js",
+        "/home/chiraj/Projects/tic-tac-toe/www/lib/angular-sanitize/angular-sanitize.min.js"
+    ]
+}

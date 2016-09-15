@@ -1,0 +1,25 @@
+	<ion-view title="With Computer" style="background: url(img/paper.jpg) no-repeat center;background-size:cover; text-align: center;">
+    <ion-content padding="true" scroll="false" class="has-header">
+        <button class="button button-full button-stable" ng-class="{ 'button-calm' :game ,'button-stable':!game }"> game : {{number}}   {{ game? "  Anti Game " : "  Normal Game"}} </button>
+        <div class=" button-bar ">
+          <button class="button button-full " ng-class="{ 'button-balanced': !turn, 'button-assertive': turn }"> Computer :  {{computer}} </button>
+        <button class="button button-full " ng-class=" {'button-balanced' : turn , 'button-assertive' : !turn }"> You :  {{you}} </button>    
+        </div>    
+        <div class="spacer" style="width: 300px; height: 30px;"></div>
+        
+        <div  class=" button-bar ">
+            <button class=" button button-dark button-large button-outline " ng-repeat='i in [0,1,2]' style="margin:10px" ng-click='logvalue(i)' ng-style="(colorarr[i])?{color:'azure'}:{color:'black'}" >{{chararr[i]}}</button>
+        </div>
+        <div class="spacer" style="width: 300px; height: 35px;"></div>
+
+        <div  class=" button-bar ">
+            <button class=" button button-dark button-large button-outline " ng-repeat='i in [3,4,5]' style="margin:10px"  ng-click='logvalue(i)' ng-style="(colorarr[i])?{color:'azure'}:{color:'black'}" >{{chararr[i]}}</button>
+        </div>
+        <div class="spacer" style="width: 300px; height: 35px;"></div>
+        
+        <div  class=" button-bar ">
+            <button class=" button button-dark button-large button-outline " ng-repeat='i in [6,7,8]' style="margin:10px" ng-click='logvalue(i)' ng-style="(colorarr[i])?{color:'azure'}:{color:'black'}">{{chararr[i]}}</button>
+        </div>
+        <h1>{{sec}}</h1>
+    </ion-content>
+</ion-view>
